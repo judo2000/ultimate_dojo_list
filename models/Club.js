@@ -27,6 +27,13 @@ Club.init(
         sensei: {
             type: DataTypes.STRING,
         },
+        styleId: {
+            type: DataTypes.UUID,
+            references: {
+                model: 'style',
+                key: 'id'
+            }
+        },
         userId: {
             type: DataTypes.UUID,
             references: {
