@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS judo_db;
+CREATE DATABASE judo_db;

@@ -1,0 +1,10 @@
+<ul>
+    {{#each clubs as |club|}}
+        <li>
+            <p>User id: {{club.id}}</p>
+            <p>Username: {{ club.club_name}}</p>
+            <p>Instructor(s): {{club.sensei}}</p>
+            <p>Added by: {{club.user.first_name}} club.user.last_name</p>
+        </li>
+    {{/each}}
+</ul>
